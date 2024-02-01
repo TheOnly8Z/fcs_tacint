@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+ $basetexture "fgut\tacint\devgru_helmet"
+ $bumpmap     "fgut\tacint\devgru_helmet_normal"
+ $normalmapalphaenvmapmask 1
+ $envmap env_cubemap
+ $phong 1
+ $phongexponent 10
+ $phongboost "0.650000"
+ $phongfresnelranges "[0.5 6 18]"
+ $rimlight 1
+ $rimlightexponent 15
+ $rimlightboost "0.6"
+ $envmapsaturation "0.500000"
+ $envmaptint "[ 0.1 0.1 0.1]"
+}
