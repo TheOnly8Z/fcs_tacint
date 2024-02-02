@@ -4,8 +4,9 @@ $bodygroup "studio"
 {
 	studio "helmet2.smd"
 	studio "helmet2_down.smd"
-
 }
+
+$mostlyopaque
 
 $proceduralbones "male_07.vrd"
 

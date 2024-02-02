@@ -5,6 +5,8 @@ $bodygroup "studio"
 	studio "gasmask.smd"
 }
 
+$mostlyopaque
+
 $proceduralbones "male_07.vrd"
 
 $cdmaterials "fgut\tacint\"
