@@ -72,10 +72,46 @@ FCS.DefineItem("ti_balmask", {
 	-- BoneMods = CAPFIX,
 })
 
+FCS.DefineItem("ti_headphones1", {
+	PrintName = "Open Headset",
+	Category = "TacInt",
+	Type = FCS_EARS,
+	Model = "models/fgut/tacint/headphones1.mdl",
+})
+
+FCS.DefineItem("ti_headphones2", {
+	PrintName = "Short Mic Headset",
+	Category = "TacInt",
+	Type = FCS_EARS,
+	Model = "models/fgut/tacint/headphones2.mdl",
+})
+
+FCS.DefineItem("ti_headphones3", {
+	PrintName = "PowerCom Headset",
+	Category = "TacInt",
+	Type = FCS_EARS,
+	Model = "models/fgut/tacint/headphones3.mdl",
+})
+
+FCS.DefineItem("ti_headphones4", {
+	PrintName = "Mono Headset",
+	Category = "TacInt",
+	Type = FCS_EARS,
+	Model = "models/fgut/tacint/headphones4.mdl",
+})
+
 FCS.DefineItem("ti_helmet1", {
 	PrintName = "Polizei Helmet",
 	Category = "TacInt",
 	Type = FCS_HAT,
 	Model = "models/fgut/tacint/helmet1.mdl",
+	-- BoneMods = CAPFIX,
+})
+
+FCS.DefineItem("ti_helmet2", {
+	PrintName = "GSG Helmet",
+	Category = "TacInt",
+	Type = FCS_HAT,
+	Model = "models/fgut/tacint/helmet2.mdl",
 	-- BoneMods = CAPFIX,
 })
