@@ -214,15 +214,27 @@ FCS.DefineItem("ti_goggles4", {
 FCS.DefineItem("ti_helmet1", {
 	PrintName = "Polizei Helmet",
 	Category = "TacInt",
-	Type = FCS_HAT,
+	Type = FCS_HAT + FCS_EARS,
 	Model = "models/fgut/tacint/helmet1.mdl",
 	-- BoneMods = CAPFIX,
+
+	Armor = {
+		Strength = 1.15,
+		Durability = 40,
+		Region = {[HITGROUP_HEAD] = FCS_DMGDIR_TOP + FCS_DMGDIR_SIDE + FCS_DMGDIR_BACK},
+	},
 })
 
 FCS.DefineItem("ti_helmet2", {
 	PrintName = "GSG Helmet",
 	Category = "TacInt",
-	Type = FCS_HAT,
+	Type = FCS_HAT + FCS_EARS,
 	Model = "models/fgut/tacint/helmet2.mdl",
 	-- BoneMods = CAPFIX,
+
+	Armor = {
+		Strength = 1.25,
+		Durability = 75,
+		Region = {[HITGROUP_HEAD] = FCS_DMGDIR_TOP + FCS_DMGDIR_SIDE + FCS_DMGDIR_BACK},
+	},
 })
