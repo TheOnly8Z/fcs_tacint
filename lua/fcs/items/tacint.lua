@@ -238,3 +238,16 @@ FCS.DefineItem("ti_helmet2", {
 		Region = {[HITGROUP_HEAD] = FCS_DMGDIR_TOP + FCS_DMGDIR_SIDE + FCS_DMGDIR_BACK},
 	},
 })
+
+FCS.DefineItem("ti_vest_jtf", {
+	PrintName = "JTF Vest",
+	Category = "TacInt",
+	Type = FCS_EXO,
+	Model = "models/fgut/tacint/vest_jtf2.mdl",
+
+	Armor = {
+		Strength = 1,
+		Durability = 60,
+		Region = {[HITGROUP_CHEST] = true},
+	},
+})

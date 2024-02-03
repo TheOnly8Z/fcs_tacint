@@ -1,0 +1,12 @@
+vertexlitgeneric
+{
+    $phong 1
+    $phongexponent 5
+    $phongboost "0.400000"
+    $phongfresnelranges "[0.5 9 24]"
+    $rimlight 1
+    $rimlightexponent 10
+    $rimlightboost "0.3"
+    $baseTexture "fgut\tacint\jtf2"
+    $bumpmap "fgut\tacint\jtf2_NORMAL"
+}
